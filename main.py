@@ -62,7 +62,7 @@ def update(dt):
     
     # Столкновение
     if q.colliderect(fireball) or q.colliderect(fireball_2):
-        q.image = 'gusd2'
+        q.image = 'gusd2 (2)'
         game_over = 1
 
 def on_key_down(key):
